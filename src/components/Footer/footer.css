@@ -1,5 +1,15 @@
 .footer-wrap{
     height: 20vh;
     width: 100%;
-    background-color: rgb(49, 113, 168);
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Oxygen", sans-serif;
+    
+}
+.footer-wrap a{
+    color: black;
+    text-decoration: none;
 }
