@@ -4,7 +4,7 @@ function ServiceCard({title, services}) {
         <div className="card-wrap">
             <h3 className="card-wrap__title">{title}</h3>
             <ul className="card-wrap__services">
-                {services.map((service) =>  <li>{service}</li>)}
+                {services.map((service) =>  <li key={service}>{service}</li>)}
             </ul>
         </div>
      );
