@@ -37,9 +37,10 @@ margin: 0;
     padding: 1rem;
     margin: 0 2rem 0 2rem;
     
+    
 }
-.background-menu-bar__menu-bar__menus a{
-    text-decoration: none;
+.background-menu-bar__menu-bar__menus label{
+    cursor: pointer;
     color: black;
     }
 
