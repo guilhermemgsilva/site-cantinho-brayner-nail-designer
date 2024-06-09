@@ -1,5 +1,5 @@
 .base-page-wrap{
-    height: 50vh;
+    height: 60vh;
     width: 100%;
     /* background-color: #c9b4b4; */
     background: rgb(138,157,254);
@@ -7,11 +7,11 @@ background: linear-gradient(0deg, rgba(138,157,254,1) 0%, rgba(235,134,155,1) 10
     font-family: "Oxygen", sans-serif;
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid #000;
+    
     
 }
 .base-page-wrap__content{
-    width: 80%;
+    width: 85%;
     
     
 }

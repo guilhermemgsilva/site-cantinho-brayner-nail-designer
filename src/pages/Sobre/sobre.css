@@ -1,4 +1,24 @@
-img{
+.presentations-images{
     height: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+img{
+    height: 100%;
+    margin-left: 2rem;
+    margin-top: 2rem;
     
+}
+.content-text{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 50%;
+    font-family: "Indie Flower", cursive;
 }

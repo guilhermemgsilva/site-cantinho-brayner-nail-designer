@@ -1,0 +1,33 @@
+.card-wrap{
+    height: calc(100% - 4px);
+    width: 33vw;
+    border-top: 2px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom:2px solid #000;
+    background-color: #ffdbeb;
+    font-family: "Oxygen", cursive;
+}
+.card-wrap h3{
+    color: #ea5296;
+    padding: 0 1rem 0 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2.5rem 0 1.5rem 0;
+    }
+
+.card-wrap h4{
+    padding: 0 1rem 0 1rem;
+    margin-bottom: 1rem;
+    }
+
+.card-wrap p{
+    padding: 0 1rem 0 1rem;
+    color: #6f6f72;
+    
+    
+}
+.card-wrap span{
+    cursor: pointer;
+    padding: 0 1rem 0 1rem;
+}

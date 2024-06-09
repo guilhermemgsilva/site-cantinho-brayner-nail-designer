@@ -11,6 +11,7 @@ margin: 0;
     display: flex;
     flex-direction: column;
     
+    
 }
 .all-menu-wrap{
     position: fixed;
@@ -28,7 +29,12 @@ margin: 0;
     align-items: center;  
     border-bottom: 1px solid #665187;
 }
-
+.background-menu-bar__icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1.8rem;
+}
 .background-menu-bar__menu-bar__icons__logo{
     height: 7rem;
     padding-left: 6rem;
