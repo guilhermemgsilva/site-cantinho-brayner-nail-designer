@@ -4,34 +4,41 @@ margin: 0;
 }
 
 .background-menu-bar{
-    height:calc(4rem + 6vh);
+    height:8.5rem;
     width: 100%;
     font-family: "Oxygen", sans-serif;
     background-color: #f2b2b3;
+    display: flex;
+    flex-direction: column;
+    
+}
+.all-menu-wrap{
+    position: fixed;
+    width: 100%;
 }
 .background-menu-bar__menu-bar{
-    position: fixed;
-    background-color: aliceblue;
+    
+    background-color: #ebe1fc;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex: 1;
-    height: 4rem;
+    height: 6rem;
     width: 100%;
     align-items: center;  
+    border-bottom: 1px solid #665187;
 }
 
 .background-menu-bar__menu-bar__icons__logo{
-    height: 4rem;
-    margin-right: 2rem;
-    padding-left: 2rem;
+    height: 7rem;
+    padding-left: 6rem;
 }
 
 .background-menu-bar__menu-bar__menus{
     display: flex;
     flex: 1;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-decoration: none;
     list-style-type: none;
     padding: 1rem;
@@ -39,6 +46,31 @@ margin: 0;
     
     
 }
+.background-menu-bar-bottom{
+    background-color: #665187;
+    height: 2.5rem;
+    width: 100%;
+    border-bottom: 1px solid #665187;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Oxygen", sans-serif;
+    color: #ebe1fc;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.background-menu-bar-bottom__menus{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    
+}
+.background-menu-bar-bottom__menus label{
+    cursor: pointer;
+}
+
 .background-menu-bar__menu-bar__menus label{
     cursor: pointer;
     color: black;
@@ -50,7 +82,7 @@ margin: 0;
 
 @media only screen and (max-width: 600px){
     .background-menu-bar{
-        height:calc(4rem + 6vh);
+        height:4rem;
         width: 100%;
         font-family: "Oxygen", sans-serif;
         background-color: #f2b2b3;

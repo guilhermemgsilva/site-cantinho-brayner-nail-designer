@@ -4,7 +4,6 @@ function BasePage({children, pageTitle,id}) {
     <>
     <div id={id} className="base-page-wrap">
         <div className="base-page-wrap__content">
-            <h1>{pageTitle}</h1>
             {children}
         </div>
     </div>
