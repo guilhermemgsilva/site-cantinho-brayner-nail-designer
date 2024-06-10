@@ -6,7 +6,7 @@ function Sobre() {
         <BasePage pageTitle="Sobre" id="sobre">
             <div className="presentations-images">
                 <div className="content-text">
-                    <p><i>No Cantinho Brayner, acreditamos que as unhas são uma tela para expressão pessoal, uma declaração de estilo e um reflexo de sua individualidade. Estamos aqui para transformar essa visão em realidade, oferecendo um serviço excepcional que vai além das expectativas.</i></p>
+                    <p><div className="destak-greets">BEM VINDA(O)!!!</div><br/>No Cantinho Brayner, acreditamos que as unhas são uma tela para expressão pessoal, uma declaração de estilo e um reflexo de sua individualidade. Estamos aqui para transformar essa visão em realidade, oferecendo um serviço excepcional que vai além das expectativas.</p>
                 </div>
             <img src={image1} alt="" />
             </div>

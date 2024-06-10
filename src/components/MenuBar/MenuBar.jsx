@@ -41,9 +41,9 @@ function MenuBar() {
             </div>
             <div className="background-menu-bar-bottom">
             <ul className="background-menu-bar-bottom__menus" >
-                <li><Link to='alongamentos' smooth={true} offset={-150} duration={500} ><label onClick={toggle}>Alongamentos</label></Link></li>
-                <li><Link to='manutencao' smooth={true} offset={-150} duration={500}><label onClick={toggle}>Manutenção</label></Link></li>
-                <li><Link to='outros' smooth={true} offset={-150} duration={500}><label onClick={toggle}>Outros</label></Link></li>
+                <li><Link to='alongamentos' smooth={true} offset={-150} duration={500} ><label >Alongamentos</label></Link></li>
+                <li><Link to='manutencao' smooth={true} offset={-150} duration={500}><label >Manutenção</label></Link></li>
+                <li><Link to='outros' smooth={true} offset={-150} duration={500}><label >Outros</label></Link></li>
                 
                 
 

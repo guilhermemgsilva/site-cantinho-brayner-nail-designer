@@ -88,7 +88,7 @@ margin: 0;
 
 @media only screen and (max-width: 600px){
     .background-menu-bar{
-        height:4rem;
+        height:6rem;
         width: 100%;
         font-family: "Oxygen", sans-serif;
         background-color: #f2b2b3;
@@ -96,14 +96,14 @@ margin: 0;
     }
     .background-menu-bar__menu-bar{
         flex-direction: column;
-        height: 4rem;
+        height: 6rem;
         overflow: hidden;
         justify-content: flex-start;
         background-color: aliceblue;
         transition: height 0.5s ease-in-out;
     }
     .background-menu-bar__menu-bar-active{
-        height: 12rem;
+        height: 13rem;
     }
     .background-menu-bar__icons{
         display: flex;
@@ -111,7 +111,14 @@ margin: 0;
         justify-content: space-between;
         width: 100%;
         align-items: center;
+        margin: 0;
+        
     
+    }
+    .background-menu-bar__menu-bar__icons__logo{
+        height: 7rem;
+        padding-left: 0;
+        margin: 0;
     }
     .background-menu-bar__resposivity{
         display: inline-block;
@@ -122,6 +129,7 @@ margin: 0;
     .background-menu-bar__menu-bar__menus{
         flex-direction: column;
         gap: 5px;
+        padding: 0;
         
     }
 }

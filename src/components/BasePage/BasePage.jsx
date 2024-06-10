@@ -4,7 +4,7 @@ function BasePage({children, pageTitle,id}) {
     <>
     <div id={id} className="base-page-wrap">
         <div className="base-page-wrap__content">
-            {children}
+            {children} 
         </div>
     </div>
     </> 
