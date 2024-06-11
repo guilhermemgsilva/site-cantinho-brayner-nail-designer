@@ -12,7 +12,7 @@
     color: #ea5296;
     padding: 0 1rem 0 1rem;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     margin: 2.5rem 0 1.5rem 0;
     font-weight: lighter;
     }
@@ -20,14 +20,16 @@
 .card-wrap h4{
     padding: 0 1rem 0 1rem;
     margin-bottom: 1rem;
+    color:#6f6f72;
     }
 
-.card-wrap p{
+.card-wrap {
     padding: 0 1rem 0 1rem;
-    color: #6f6f72;
+    color: #ea5296;
     
     
 }
+
 .card-wrap span{
     cursor: pointer;
     padding: 0 1rem 0 1rem;

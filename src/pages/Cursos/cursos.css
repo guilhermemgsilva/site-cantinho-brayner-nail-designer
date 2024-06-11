@@ -10,27 +10,32 @@
     justify-content: center;
 }
 .right-column{
-    margin: 0 0 2rem 8rem;
+    /* margin: 0 0 2rem 8rem; */
     text-align: right;
     font-size: 0.9rem;
     text-align: justify;
+    color: #ea5296;
 
 }
 
 .left-column{
-    
+    margin-top: 1.3rem;
     text-align: left;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
+    color: #6f6f72;
 }
 
-.image{
+.left-column p{
+    color: #6f6f72;
+}
+.cursos-image{
     display: flex;
     justify-content: center;
     
     
 }
 .image-curso-iniciate{
-    height: 11rem;
+    height: 20rem;
     align-self: center;
     margin: 0;
 }

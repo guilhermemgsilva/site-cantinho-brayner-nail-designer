@@ -1,0 +1,22 @@
+ .manutencao-wrap{
+    height: 60vh;
+    width: 100%;
+    background-color: #fe77a2;;
+    font-family: "Oxygen", cursive;
+ }
+.manutencao-title{
+    margin: 0 0 1rem 5rem ;
+    padding-top: 1.5rem;
+    width: 10rem;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.manutencao-main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3.5rem;
+}
