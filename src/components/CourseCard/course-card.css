@@ -7,7 +7,11 @@
     border-bottom:2px solid #665187;
     background-color: #ffdbeb;
     font-family: "Oxygen", cursive;
+    padding: 0 1rem 0 1rem;
+    color: #ea5296;
+    position: relative;
 }
+
 .card-wrap h3{
     color: #ea5296;
     padding: 0 1rem 0 1rem;
@@ -18,24 +22,29 @@
     }
 
 .card-wrap h4{
+    margin-top: 2rem;
     padding: 0 1rem 0 1rem;
     margin-bottom: 1rem;
     color:#6f6f72;
     }
 
-.card-wrap {
-    padding: 0 1rem 0 1rem;
-    color: #ea5296;
-    
-    
-}
+
 
 .card-wrap span{
     cursor: pointer;
     padding: 0 1rem 0 1rem;
 
 }
-
+.cursos-image{
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+.cursos-image img{
+    margin: 0;
+}
 @media only screen and (max-width: 600px){
     .card-wrap{
         overflow: hidden;

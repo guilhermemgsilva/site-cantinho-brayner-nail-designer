@@ -11,9 +11,11 @@
 }
 
 .services-card-wrap img{
-   object-fit: cover; 
+   object-fit: cover;
+   padding-bottom: 5rem; 
    margin: 0;
    width: 20vw;
+   height: 40vh;
     
    
     

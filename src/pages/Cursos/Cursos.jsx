@@ -10,33 +10,38 @@ function Cursos() {
         <div id="cursos" className="main-area"> 
             <div className="main-area-wrap">
 
-            <CourseCard subtitle="Curso para iniciantes na fibra de vidro" name="CURSO INICIANTE">
-                <p><strong>Você vai aprender...</strong></p><br/>
-                <p className="right-column">Decorações encapsuladas, manutenção, remoção, acabamento natural e resistente.</p><br/>
-                <div className="cursos-image">
+            <CourseCard subtitle="Curso para iniciantes na fibra de vidro" name="CURSO INICIANTE" image={iamgeCursoIniciante}>
+            
+                
 
-                    <img src={iamgeCursoIniciante} alt="imagem 2" className="image-curso-iniciate"/>
-                </div>
+                    <div className="course-information">
+
+                        <p><strong>Você vai aprender...</strong></p><br/>
+                        <p className="right-column">Decorações encapsuladas, manutenção, remoção, acabamento natural e resistente.</p><br/>
+                    </div>
+                    
+                    {/* <div className="cursos-image">
+
+                        <img src={iamgeCursoIniciante} alt="imagem 2" className="image-curso-iniciante"/>
+                    </div> */}
+                
                 
                 
                
             </CourseCard>
 
-            <CourseCard name="CURSO APERFEIÇOAMENTO" subtitle="Curso de aperfeiçoamento na fibra de vidro">
+            <CourseCard name="CURSO APERFEIÇOAMENTO" subtitle="Curso de aperfeiçoamento na fibra de vidro" image={imageCursoAperfeicoamento}>
                 <p><strong>Você vai aprender...</strong></p><br/>
                 <p className="right-column">Formatos nail art, lixamento técnico, manutenção, remoção, aplicação correta da fibra, otimixação de tempo, limpeza e esterelização dos equipamentos</p>
-                <div className="cursos-image">
-
-                    <img src={imageCursoAperfeicoamento} alt="imagem 3" className="image-curso-iniciate"/>
-                    
-                </div>
+                
                 
                 
                <br/><br/>
             </CourseCard>
-            <CourseCard name="MAIS INFORMAÇÕES:" subtitle="Para mais informações, ">
-                <Link to='contato' smooth={true} offset={-150} duration={500} ><span>entre em contato</span></Link>
-                <p className="left-column">*Conteúdo teórico e prático.<br/> Incluso apostila, material e certificado.*</p>
+            <CourseCard name="MAIS INFORMAÇÕES:" subtitle="Cursos presenciais especializados com conteúdos teóricos e práticos. Incluso material, apostila e certificado.">
+                
+                 <div className="button-contact-cursos"><a target="_blank" href="https://wa.me/27997832408?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20cursos">Saiba mais sobre os cursos</a> <div className="arrow">{">"}</div></div>
+                
                 </CourseCard> 
             </div>
         </div>

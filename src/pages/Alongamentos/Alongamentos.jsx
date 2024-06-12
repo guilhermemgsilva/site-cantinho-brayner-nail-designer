@@ -16,6 +16,6 @@ function Alongamentos() {
             </div>
         </div>
     );
-}
+} 
 
 export default Alongamentos;
