@@ -19,7 +19,7 @@ background: linear-gradient(0deg, rgba(138,157,254,1) 0%, rgba(235,134,155,1) 10
 @media only screen and (max-width: 600px){
     .base-page-wrap{
         font-size: 0.8rem;
-        height: 70vh;
+        height: 80vh;
         width: 100%;
         
     }

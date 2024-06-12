@@ -68,6 +68,7 @@ margin: 0;
 }
 
 .background-menu-bar-bottom__menus{
+    padding: 0;
     list-style-type: none;
     display: flex;
     justify-content: center;

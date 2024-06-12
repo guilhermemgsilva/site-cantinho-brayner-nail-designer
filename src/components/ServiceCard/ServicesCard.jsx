@@ -10,7 +10,7 @@ function ServicesCard({backgroundImage, description}) {
             <span>{description}</span>
             </div>
         </div>
-        
+         
         </>
      );
 }

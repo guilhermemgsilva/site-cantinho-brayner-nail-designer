@@ -8,7 +8,7 @@ import esmaltacao from "../../assets/esmaltacao.jpg"
 import "./outros.css"
 
 
-function Outros() {
+function Outros() { 
     return ( 
         <div id="outros" className="outros-wrap">
             <h3 className="outros-title"> OUTROS</h3>

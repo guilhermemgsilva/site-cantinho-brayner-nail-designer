@@ -11,10 +11,10 @@ function CourseCard({name, subtitle, children, image}) {
 
             <div className="cursos-image">
 
-
+ 
            <img src={image} alt="" />
             </div>
-            
+             
         </div>
      );
 }

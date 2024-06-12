@@ -40,9 +40,9 @@ function Cursos() {
             </CourseCard>
             <CourseCard name="MAIS INFORMAÇÕES:" subtitle="Cursos presenciais especializados com conteúdos teóricos e práticos. Incluso material, apostila e certificado.">
                 
-                 <div className="button-contact-cursos"><a target="_blank" href="https://wa.me/27997832408?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20cursos">Saiba mais sobre os cursos</a> <div className="arrow">{">"}</div></div>
+                 <div className="button-contact-cursos"><a target="_blank" href="https://wa.me/27998559638?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20cursos.">Saiba mais sobre os cursos</a> <div className="arrow">{">"}</div></div>
                 
-                </CourseCard> 
+                </CourseCard>   
             </div>
         </div>
         )

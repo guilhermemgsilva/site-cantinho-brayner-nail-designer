@@ -1,11 +1,14 @@
 
 .services-card-wrap{
-    height: 70%;
+    height: 45vh;
     width: 20vw;
     object-fit: contain;
     border-radius: 1rem;
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     
     
 }
@@ -18,7 +21,7 @@
    height: 40vh;
     
    
-    
+     
 }
 
 .services-card-description{
@@ -38,4 +41,18 @@
 }
 .services-card-description span{
     margin-left: 1rem;
+}
+@media only screen and (max-width: 600px){
+    .services-card-wrap{
+        height: 50vh;
+        width: 80vw;
+        
+        
+    }
+    .services-card-wrap img{
+        width: 100%;
+    }
+    .services-card-description{
+        width: 100%;
+    }
 }

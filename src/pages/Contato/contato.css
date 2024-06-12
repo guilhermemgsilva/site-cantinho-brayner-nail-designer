@@ -3,14 +3,16 @@
     width: 100%;
     background-color: #aea3c0;
     font-family: "Oxygen", cursive;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .contact{
     height: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
 .contato-title{
     margin: 0 0 1rem 5rem ;
@@ -55,3 +57,24 @@
     color: #fff;
     text-decoration: none;
 }
+.insta a{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: #000;
+}
+.insta img{
+    height: 2rem;
+}
+@media only screen and (max-width: 600px){
+   
+   
+   .contato-title{
+    margin: 0;
+   }
+
+   .location{
+    width: 90%;
+   }
+} 

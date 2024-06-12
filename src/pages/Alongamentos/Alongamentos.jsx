@@ -15,7 +15,7 @@ function Alongamentos() {
             <ServicesCard description="Sem Decoração" backgroundImage={alongamentoSemDecoracao}/>
             </div>
         </div>
-    );
+    ); 
 } 
 
 export default Alongamentos;
