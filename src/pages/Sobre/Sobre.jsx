@@ -1,4 +1,3 @@
-import BasePage from "../../components/BasePage/BasePage";
 import "./sobre.css"
 import backgroundAbout from "../../assets/background-about.png"
 function Sobre() {
